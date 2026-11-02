@@ -4,7 +4,11 @@ import com.wangzan101.mika.R
 import com.wangzan101.mika.i18n.tr
 import java.net.URLEncoder
 
-/** Mika 对外的地址都在这里:仓库、问题、作者、X 群聊、检查更新用的两个来源。换地址只改这一处。 */
+/** Mika 对外的地址都在这里:仓库、问题、作者、X 群聊、检查更新用的两个来源。换地址只改这一处。
+ * TM手机Agent fork 注意:建好自己的 GitHub 仓库并发布第一个 Release 之后，
+ * 再把下面的 REPO / REPO_LABEL / LATEST_RELEASE_API 改成自己的仓库地址；
+ * 在此之前不要改，否则检查更新与反馈链接会指向一个还不存在的地址。
+ * 包名与内部类名暂不改，见 TM-README.md。 */
 object MikaLinks {
     const val REPO = "https://github.com/wangzan101/Mika"
     const val REPO_LABEL = "github.com/wangzan101/Mika"
